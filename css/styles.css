@@ -1,0 +1,71 @@
+
+
+* {
+
+}
+body{ 
+    margin: 0 auto;
+}
+header.header{
+    display: flex;
+    align-items: center;
+}
+header.header img {
+    width: 300px;
+
+}
+section.top-page{
+    background: url(../images/6.jpg);
+    background-size: cover;
+    height:87vh;
+    padding: 25px;
+
+}
+
+/*  page de bienvenue (landing page)*/
+.big-title {
+    font-size: 60px;
+    padding: 20px 80px;
+    font-weight: 100px;
+    width: 200px;
+
+}
+
+
+
+/* menu de navigation */
+
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 600px;
+    margin-left: 200px;
+}
+nav.nav li {
+
+}
+
+/* services */
+
+.services{
+    display: flex;
+    margin: 50px;
+    justify-content: space-evenly ;
+
+
+
+}  
+.services-item { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.services-details {
+    font-weight: 500;
+    width: 30  0px;
+    text-align: center;
+    flex-direction: column;
+
+
+}
