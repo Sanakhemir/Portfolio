@@ -21,17 +21,46 @@ section.top-page{
     padding: 25px;
 
 }
-
-/*  page de bienvenue (landing page)*/
-.big-title {
-    font-size: 60px;
-    padding: 20px 80px;
-    font-weight: 100px;
-    width: 200px;
-
+nav class nav top-page {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem;
+    border-radius: 30px;
+   
 }
 
 
+    
+
+/*  page de bienvenue (landing page)*/
+.big-title {
+    font-size: 40px;
+    padding: 10px 30px;
+    font-weight: 40px;
+    width: 800px;
+    
+
+}
+h1 {
+    font-size: 50px;
+    padding: 10px 30px;
+    font-weight: 80px;
+    width: 500px;
+}
+
+h4 {
+    display: flex;
+    font-size: 20px;
+    padding: 10px 30px;
+    font-weight: 40px;
+    width: 500px;
+}
+h3 {
+    font-size: 20px;
+    padding: 10px 30px;
+    font-weight: 80px;
+    width: 500px;
+}
 
 /* menu de navigation */
 
@@ -54,7 +83,6 @@ nav.nav li {
     justify-content: space-evenly ;
 
 
-
 }  
 .services-item { 
     display: flex;
@@ -68,4 +96,10 @@ nav.nav li {
     flex-direction: column;
 
 
+}
+/* titre */
+.text-center {
+    text-align: center;
+    margin: 60px;
+    display: flex;
 }
